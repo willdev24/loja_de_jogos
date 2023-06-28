@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*esse comando serve pra resetar as configuraçoes aplicada pelo site NO BOX MODEL*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: rgb(234, 239, 248);
+}
+main{
+  
+   font-family: 'Roboto', sans-serif;
+color: rgb(0, 0, 116);
+}
+
+.container{
+
+   padding: 16px 100px
+}
+
+
+header{
+    background-color: rgb(3, 3, 87);
+   
+}
+header .container, h2, h3,h4,button,input,textarea{
+   font-family: 'Bungee', cursive;
+   font-weight:normal;
+}
+ 
+header .container {
+    color: aliceblue;
+    display: flex;
+    padding: 16px 100px;
+    align-items: center;
+    justify-content:space-between;
+    
+ }
+
+ header .container li{
+    display: inline;
+    margin-left:16px; 
+ }
+
+header .container li a {
+        color: aliceblue;
+        font-weight: bolder;
+        text-decoration: none;
+ }
+    
+ #imagens .container img{
+    margin-top: 30px;  
+    height: 650px;
+    
+ }
+ section{
+   display: flex;
+ }
+ .articles article{
+   margin-top: 45px;
+   margin-left: -70px;
+   
+ }
+ .articles article img {
+    height: 100px;
+ }
+
+#descriçoes .container{
+   margin-top: 30px;
+  padding: 16px ;
+  margin-left: -100px;  
+   
+}
+
+.articles article p {
+   width:70%;
+   margin-top: 16px;
+}
+
+h2{
+   font-size: 30px;
+}
+
+.container h4{
+   font-size:20px;
+   padding: 16px 0;
+
+}
+#contato .container {
+   margin-top: 30px;
+   font-size: 25px;
+   margin-top:45px;
+}
+
+
+
+ main {
+   display: flex;
+   flex-wrap: wrap;
+      
+}
+
+#redes .articles article{
+margin-left: -20px;
+margin-top:100px;
+
+}
+
+#redes .container img{
+margin-top: 16px;
+height: 50px; 
+width:50px;
+}
+
+form input ,textarea{
+   font-size: 12px;
+   width:300px;
+   height: 30px;
+   border-color:rgb(45, 45, 71) ;
+   
+}
+textarea{
+   height: 100px;
+   margin-top: 10px;
+   resize: none;
+}
+
+form button{
+      
+   width:300px;
+   height: 45px;
+   background-color: rgb(3, 3, 75) ;
+   color: aliceblue;
+  font-weight: normal;
+  border: none; 
+  cursor: pointer; 
+}
+
+form button:hover{
+   background-color: rgb(18, 18, 240);
+}
+
+input:focus,textarea:focus{
+   outline-color: rgb(60, 3, 114);
+}
+
+footer p{
+   align-items: center;
+ margin-left: 350px;
+}
+
+footer  {
+   background-color: rgb(6, 6, 66);
+  color: aliceblue;
+  margin-top: 26px;
+  padding: -10px 0;
+  height: 40px;
+
+}
+
